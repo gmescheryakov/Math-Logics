@@ -33,7 +33,8 @@ void limit_5(bdd &tree, const bdd p[M][N][N]);
 bdd limit_6(const bdd p[M][N][N]);
 
 int main() {
-    var = std::make_unique<char[]>(N * M * LOG_N).get();
+//    var = std::make_unique<char[]>(N * M * LOG_N).get();
+    var = new char[N * M * LOG_N];
 
     //Инициализация
     bdd_init(10000000, 1000000);
