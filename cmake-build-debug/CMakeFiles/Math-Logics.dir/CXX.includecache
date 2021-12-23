@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../external/buddy/src/bdd.h
+stdio.h
+-
+iostream
+-
+
+D:/Programming/ClionProjects/Math-Logics/main.cpp
+bdd.h
+-
+fstream
+-
+memory
+-
+cmath
+-
+vector
+-
+cassert
+-
+

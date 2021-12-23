@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Programming/ClionProjects/Math-Logics/external/buddy/src/bdd.h
+stdio.h
+-
+iostream
+-
+
+D:/Programming/ClionProjects/Math-Logics/external/buddy/src/bvec.h
+fdd.h
+D:/Programming/ClionProjects/Math-Logics/external/buddy/src/fdd.h
+
+D:/Programming/ClionProjects/Math-Logics/external/buddy/src/cppext.cxx
+string.h
+-
+stdlib.h
+-
+iomanip
+-
+kernel.h
+D:/Programming/ClionProjects/Math-Logics/external/buddy/src/kernel.h
+bvec.h
+D:/Programming/ClionProjects/Math-Logics/external/buddy/src/bvec.h
+
+D:/Programming/ClionProjects/Math-Logics/external/buddy/src/fdd.h
+bdd.h
+D:/Programming/ClionProjects/Math-Logics/external/buddy/src/bdd.h
+
+D:/Programming/ClionProjects/Math-Logics/external/buddy/src/kernel.h
+limits.h
+-
+setjmp.h
+-
+bdd.h
+D:/Programming/ClionProjects/Math-Logics/external/buddy/src/bdd.h
+
